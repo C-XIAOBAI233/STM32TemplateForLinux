@@ -1,12 +1,12 @@
 # STM32TemplateForLinux
 
-##简介
+## 简介
   这是一个stm32的project模板.仅在树莓派4b上测试过，用的是stm32f103c6的芯片.
   以普遍理性而言所有的linux环境都可使用.
   
-##使用方法
-  在stm32template目录中\n
-    $ make\n
+## 使用方法
+  在stm32template目录中
+    $ make
       以编译程序，并生成hex，bin文件
     $ make clean
       删除编译*.o文件
@@ -14,7 +14,7 @@
       烧录hex文件到/dev/ttyUSB0,此处使用stm32flash程序下载，
       若用其它方式请自行更改Makefile
   
-##文件结构
+## 文件结构
   .
   ├── LIB
   │   ├── CORE
