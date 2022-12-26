@@ -5,8 +5,8 @@
   以普遍理性而言所有的linux环境都可使用.
   
 ##使用方法
-  在stm32template目录中
-    $ make
+  在stm32template目录中\n
+    $ make\n
       以编译程序，并生成hex，bin文件
     $ make clean
       删除编译*.o文件
