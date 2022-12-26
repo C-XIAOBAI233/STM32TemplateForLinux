@@ -11,11 +11,17 @@
   
 ## 使用方法
   在stm32template目录中  
-    $ make  
+  ```
+     $ make  
+  ```
       以编译程序，并生成hex，bin文件  
-    $ make clean  
+  ```
+     $ make clean  
+  ```
       删除编译*.o文件  
-    $ make update  
+  ```
+     $ make update  
+  ```
       烧录hex文件到/dev/ttyUSB0,此处使用stm32flash程序下载，  
       若用其它方式请自行更改Makefile  
   
