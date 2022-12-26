@@ -1,8 +1,13 @@
 # STM32TemplateForLinux
 
 ## 简介
-  这是一个stm32的project模板.仅在树莓派4b上测试过，用的是stm32f103c6的芯片.  
-  以普遍理性而言所有的linux环境都可使用.  
+  这是一个stm32的project模板.  
+  因某些特殊原因，我仅在树莓派4b上搭建开发环境.芯片用的是stm32f103c6.  
+  本模板使用标准外设库，至于hal就不太清楚了   
+  
+## 需求
+  arm-none-eabi-gcc
+  若没有设置$PATH，记得将工具链的根目录加入PATH变量
   
 ## 使用方法
   在stm32template目录中  
