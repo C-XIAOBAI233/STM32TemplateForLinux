@@ -35,9 +35,13 @@
       其他的库文件请自行添加  
       
   Makefile:makefile  
-           TODO: 添加设置的说明  
+      变量说明：  
+      - STR_UP：启动文件名(不含后缀)  
+      - STM_TYPE_DEF：编译时的宏定义，要自行指定芯片类型  
+      - LSCRIPT：链接脚本文件名  
+      
   startup_stm32f10x_ld.s & stm32_flash.ld:  
-      stm32的启动程序与链接脚本  
+      stm32的启动文件与链接脚本  
       
   SYS:包含system_stm32f10x.h/c stm32f10x.h  
       一般不用动  
